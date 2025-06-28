@@ -45,8 +45,8 @@ stock-prediction/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/stock-prediction-ml.git
-cd stock-prediction-ml
+git clone https://github.com/AryaLolusare2712/Stock-Prediction.git
+cd Stock-Prediction
 ```
 
 ---
