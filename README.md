@@ -1,11 +1,68 @@
-# Stock Market Price Predictor using Supervised Learning
+# 📈 Stock Price Prediction using Machine Learning
 
-To examine a number of different forecasting techniques to predict future stock returns based on past returns and numerical news indicators to construct a portfolio of multiple stocks in order to diversify the risk. We do this by applying supervised learning methods for stock price forecasting by interpreting the seemingly chaotic market data.
+This project demonstrates a basic approach to predict stock prices using historical data and machine learning techniques.  
+The goal is to forecast future closing prices of a selected stock using regression models.
 
-# Methodology
-1. Preprocessing and Cleaning
-2. Feature Extraction
-3. Twitter Sentiment Analysis and Score
-4. Data Normalization
-5. Analysis of various supervised learning methods
-6. Conclusions
+---
+
+## 🔍 Overview
+
+- 📅 Uses historical stock price data (e.g., from Yahoo Finance)
+- 📊 Explores and visualizes data trends
+- 🤖 Trains ML models (like Linear Regression)
+- 📈 Evaluates and plots predicted vs. actual prices
+- 💾 Written in a single Jupyter Notebook with outputs included
+
+---
+
+## 🛠️ Features
+
+- Download historical stock data using `yfinance`
+- Create features based on moving averages and time lags
+- Train/Test split for model evaluation
+- Model: **Linear Regression**
+- Visualization: Real vs. Predicted Price comparison
+
+---
+
+## 📂 File Structure
+
+stock-prediction/
+
+│
+
+├── README.md # You're here
+
+└── stock_prediction.ipynb # Jupyter notebook with code and output
+
+---
+
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/stock-prediction-ml.git
+cd stock-prediction-ml
+```
+
+---
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
+
+```bash
+pip install yfinance pandas scikit-learn matplotlib seaborn
+```
+
+---
+
+###3. Run the Notebook
+Open stock_prediction.ipynb in Jupyter Lab/Notebook or any compatible environment.
