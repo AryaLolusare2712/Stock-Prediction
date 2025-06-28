@@ -64,5 +64,5 @@ pip install yfinance pandas scikit-learn matplotlib seaborn
 
 ---
 
-###3. Run the Notebook
+### 3. Run the Notebook
 Open stock_prediction.ipynb in Jupyter Lab/Notebook or any compatible environment.
