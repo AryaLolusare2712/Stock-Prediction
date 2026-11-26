@@ -1,5 +1,9 @@
 # 📈 Stock Price Prediction using Machine Learning
 
+## Project contribution
+
+Provides a compact, educational example of turning historical stock data into regression-based price forecasts and visual evaluations.
+
 ## Architecture
 
 ```mermaid
