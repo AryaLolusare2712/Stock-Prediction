@@ -1,5 +1,15 @@
 # 📈 Stock Price Prediction using Machine Learning
 
+## Architecture
+
+```mermaid
+flowchart LR
+  H[Historical price data] --> P[Preprocessing and features]
+  P --> M[Regression model]
+  M --> F[Price forecast]
+  F --> V[Visualisation and evaluation]
+```
+
 This project demonstrates a basic approach to predict stock prices using historical data and machine learning techniques.  
 The goal is to forecast future closing prices of a selected stock using regression models.
 
